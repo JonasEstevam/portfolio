@@ -39,14 +39,14 @@ export const Container = styled.div`
     > strong {
       text-align: center;
       animation-name: focus-in-expand;
-      animation-duration: 1s;
+      animation-duration: .5s;
       font-size: 1rem;
       letter-spacing: 2px;
     }
     > p {
       font-weight: 100;
       animation-name: fadeIn;
-      animation-duration: 4s;
+      animation-duration: 0.5s;
       font-size: 1rem;
       letter-spacing: 2px;
       text-align: center;
@@ -65,7 +65,7 @@ export const Jonas = styled.img`
     }
   }
   animation-name: fadeIn;
-  animation-duration: 4s;
+  animation-duration: .5s;
   margin-top: 100px;
   width: 150px;
   height: 223px;
